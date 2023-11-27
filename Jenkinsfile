@@ -9,7 +9,7 @@ pipeline{
 
    stage('build image'){
      steps{
-      sh '/usr/bin/docker image build -t prasadthombare/lab_exam .
+      sh '/usr/bin/docker image build -t prasadthombare/lab_exam .'
      }
    } 
    
@@ -29,7 +29,7 @@ pipeline{
 
     stage('remove service'){
       steps{
-      sh' /usr/bin/docker service rm mysvc'
+      sh ' /usr/bin/docker service rm mysvc'
          }
       }
     stage('start service'){
