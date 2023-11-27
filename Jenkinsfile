@@ -22,7 +22,7 @@ pipeline{
 
     stage('push image'){
           steps{
-          sh '/usr/bin/docker push image prasadthombare/lab_exam'
+          sh '/usr/bin/docker  image push prasadthombare/lab_exam'
             }   
 
           } 
