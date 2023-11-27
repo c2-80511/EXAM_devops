@@ -35,7 +35,7 @@ pipeline{
     stage('start service'){
         steps{ 
        
-         sh '/usr/bin/docker service create --name mysvc --replicas 5 -p 9876:80 prasadthombare/lab_exam
+         sh '/usr/bin/docker service create --name mysvc --replicas 5 -p 9876:80 prasadthombare/lab_exam'
            }
 
 
