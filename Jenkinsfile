@@ -3,7 +3,7 @@ pipeline{
   stages{
    stage('fetch from repo'){
     steps{
-      sh 'git branch: 'master', url: 'https://github.com/c2-80511/EXAM_devops.git''
+      git branch: 'master', url: 'https://github.com/c2-80511/EXAM_devops.git'
      }
    }
 
